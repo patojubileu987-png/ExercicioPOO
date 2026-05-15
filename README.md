@@ -1,52 +1,51 @@
-# 📚 Clube de Leitura
+# Clube de Leitura
 
 Um projeto de exercício em Programação Orientada a Objetos (POO) desenvolvido com **C#** para gerenciar um clube de leitura.
 
-## 📋 Descrição
+## Descrição
 
-Este projeto propõe uma solução completa para gerenciar um clube de leitura, incluindo funcionalidades como:
-- Gestão de livros e autores
-- Controle de membros do clube
-- Registro de leituras e avaliações
-- Gerenciamento de reuniões e discussões
+Este projeto implementa uma solução para gerenciar um clube de leitura, permitindo:
+- Criação e gerenciamento de clubes de leitura
+- Registro de obras literárias e autores
+- Controle de participantes (estudantes e professores)
+- Planejamento de encontros de discussão
+- Registro de contribuições e materiais de apoio
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 ExercicioPOO/
-├── 📁 src/                          # Código-fonte principal
-│   ├── 📁 Modelos/                 # Classes de domínio (entidades)
-│   ├── 📁 Servicos/                # Lógica de negócios
-│   ├── 📁 Interface/               # Interface com usuário
-│   └── 📁 Utilitarios/             # Classes auxiliares
-├── 📁 testes/                       # Testes unitários
-├── 📁 documentacao/                 # Documentaç��o do projeto
-└── README.md                        # Este arquivo
+├── src/                              # Código-fonte
+│   ├── Modelos/                     # Classes de domínio (entidades)
+│   ├── Program.cs                   # Ponto de entrada da aplicação
+│   └── ProgramaClubeLeitura.csproj  # Configuração do projeto
+├── documentacao/                     # Documentação do projeto
+└── README.md                         # Este arquivo
 ```
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Linguagem:** C#
 - **Paradigma:** Programação Orientada a Objetos (POO)
-- **.NET Framework / .NET Core**
+- **.NET:** .NET 10.0
 
-## 🎯 Conceitos de POO Aplicados
+## Conceitos de POO Aplicados
 
-- ✅ **Encapsulamento:** Proteção de dados através de propriedades e modificadores de acesso
-- ✅ **Herança:** Reutilização de código através de hierarquias de classes
-- ✅ **Polimorfismo:** Diferentes comportamentos para diferentes tipos
-- ✅ **Abstração:** Interfaces e classes abstratas para contrato de comportamento
+- **Encapsulamento:** Proteção de dados através de propriedades e modificadores de acesso
+- **Herança:** Reutilização de código através de hierarquias de classes
+- **Polimorfismo:** Diferentes comportamentos para diferentes tipos
+- **Abstração:** Uso de classes abstratas e interfaces para contrato de comportamento
 
-## 📝 Como Usar
+## Como Usar
 
 1. Clone o repositório:
 ```bash
 git clone https://github.com/patojubileu987-png/ExercicioPOO.git
 ```
 
-2. Navegue até o diretório:
+2. Navegue até o diretório do projeto:
 ```bash
-cd ExercicioPOO
+cd ExercicioPOO/src
 ```
 
 3. Compile o projeto:
@@ -54,48 +53,34 @@ cd ExercicioPOO
 dotnet build
 ```
 
-4. Execute:
+4. Execute a aplicação:
 ```bash
 dotnet run
 ```
 
-## 📚 Estrutura de Pastas Detalhada
+## Exemplo de Uso
 
-### `src/Modelos/`
-Contém as classes principais que representam entidades do domínio:
-- `Livro.cs`
-- `Autor.cs`
-- `Membro.cs`
-- `Reuniao.cs`
-- `Avaliacao.cs`
+O projeto demonstra a criação de um clube de leitura com:
+- Um professor mediador
+- Uma obra literária principal
+- Espaço de encontro designado
+- Participantes (estudantes)
+- Materiais de apoio
+- Encontros planejados com temas específicos
 
-### `src/Servicos/`
-Implementa a lógica de negócios:
-- `GerenciadorLivros.cs`
-- `GerenciadorMembros.cs`
-- `GerenciadorReuniao.cs`
+Veja `Program.cs` para um exemplo prático de implementação.
 
-### `src/Interface/`
-Interface com o usuário:
-- `Menu.cs`
-- `ProcessadorEntrada.cs`
-
-### `src/Utilitarios/`
-Classes auxiliares e utilitários:
-- `Validadores.cs`
-- `Conversores.cs`
-
-## 👨‍💻 Autor
+## Autor
 
 **patojubileu987-png**
 
-## 📄 Licença
+## Licença
 
 Este projeto é de código aberto e disponível sob licença MIT.
 
-## 🤝 Contribuições
+## Contribuições
 
-Sugestões e contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou pull request.
+Sugestões e melhorias são bem-vindas! Sinta-se à vontade para abrir uma issue ou pull request.
 
 ---
 
